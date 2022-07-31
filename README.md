@@ -2,7 +2,7 @@
 
 This project aims at building tokenizers (with Named Entities) ready for use in Natural Language Processing of Source Code from a variety of languages with Tensorflow 2.
 
-SCTK generates TRUE tokens from a given language -- not just common keywords.
+SCTK generates TRUE tokens from a given programming language -- not just common keywords.
 
 ```
 export class SimpleClass {
