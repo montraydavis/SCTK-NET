@@ -57,6 +57,24 @@ SimpleClass/NAN
 ;/TERMINATOR
 ```
 
+# Loading a Corpus
+
+Loading Source Code documents can be done as follows:
+
+
+```
+// A dictionary containing some common TypeScript keywords
+TypeScriptTokenizer tsTokenizer = new TypeScriptTokenizer("data/universal/ts_tokens.out");
+
+// Load the Corpus
+tsTokenizer.LoadCorpus("data/typescript/simple_class.ts");
+```
+
+Document is tokenized, and can be accessed using the ```.Tokens``` property.
+
+```
+var tokens = tsTokenizer.Tokens;
+```
 
 # Languages Supported [PARTIAL SUPPORT]
 

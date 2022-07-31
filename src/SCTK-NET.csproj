@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SCTK_NET</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="TypeScriptLexerBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.9.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <Content Include="Program.cs" />
+    <Content Include="Models\SourceCodeToken.cs" />
+    <Content Include="Models\SourceCodeTokenType.cs" />
+    <Content Include="Tokenizers\TypeScriptTokenizer.cs" />
+    <Content Include="Tokenizers\ITokenizer.cs" />
+  </ItemGroup>
+</Project>
